@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Crypt_Form</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CuprumFramework.Security.Cryptography">
+      <HintPath>lib\CuprumFramework.Security.Cryptography.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
